@@ -6,12 +6,12 @@ class Home extends BaseController
     {
         $data = [
             'title' => 'Welkom op de homepage',
-            'Id'    => $Id,
-            'Naam'  => $Naam,
-            'Club' => $Club,
-            'Leeftijd' => $Leeftijd,
-            'Nationaliteit' => $Nationaliteit,
-            'Salaris' => $Salaris
+            'id'    => $Id,
+            'naam'  => $Naam,
+            'club' => $Club,
+            'leeftijd' => $Leeftijd,
+            'nationaliteit' => $Nationaliteit,
+            'salaris' => $Salaris
         ];
 
         $this->view('home/index', $data);

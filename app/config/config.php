@@ -3,7 +3,7 @@
 define('DB_HOST', 'localhost');
 define('DB_USER','root');
 define('DB_PASS', '');
-define('DB_NAME', 'Mvc-2209b');
+define('DB_NAME', 'mvc-oop-proeftoets');
 
-define('URLROOT', 'http://mvc-framework.org');
+define('URLROOT', 'http://mvc-oop-proeftoets.com');
 define('APPROOT', dirname(dirname(__FILE__)));

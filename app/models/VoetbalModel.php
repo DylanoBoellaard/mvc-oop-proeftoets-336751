@@ -14,13 +14,14 @@ class VoetbalModel
         $sql = "SELECT   Id
                         ,Naam
                         ,Club
-                        ,Leeftijd,
+                        ,Leeftijd
                         ,Nationaliteit
                         ,Salaris
-                FROM Voetballers";
+                FROM Voetballers
+                ORDER BY Salaris DESC";
 
         $this->db->query($sql);
 
-        return $this->db->resultSet();
+        return $this->db->resultSet(); // Var dump if values are not visible
     }
 }
